@@ -25,7 +25,7 @@ public class Main {
                 System.out.print("Opção (0 a 8): ");
                 try {
                     opcao = sc.nextInt();
-                    sc.nextLine(); // limpa buffer
+                    sc.nextLine();
                     if (opcao >= 0 && opcao <= 8) break;
                     System.out.println("Digite um número entre 0 e 8.");
                 } catch (InputMismatchException e) {
