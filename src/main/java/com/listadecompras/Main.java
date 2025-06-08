@@ -21,7 +21,6 @@ public class Main {
             System.out.println("8 - Limpar lista");
             System.out.println("0 - Sair");
 
-            // Validação da opção
             while (true) {
                 System.out.print("Opção (0 a 8): ");
                 try {
